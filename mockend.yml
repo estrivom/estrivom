@@ -7,7 +7,7 @@ models:
       reviewType: { loremParagraphs: [10, 100] }
       reviewName: firstName
       reviewDate: { dateTime: [2010-01-01T00:00:00Z, 2020-12-31T23:59:59Z] }
-      reviewPeriod: month+year
+      reviewPeriod: month year
   Comment:
     belongsTo: [Post]
     fake:
