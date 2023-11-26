@@ -1,6 +1,12 @@
 models:
   Post:
     fake:
-      _count: 1
-      "reviewName": person
-    data: [{ "module": eTravel, "reviewMonth": "MAR", "reviewYear": "2023", "reviewDate": "2023-03-16", "reviewPeriod": "MAR-2023" }]
+      _count: 10
+      title: { loremWords: [1, 3] }
+      author: name
+ 
+  Post:
+    data: [
+      { title: Title 1 },
+      { title: Title 2 },
+    ]
