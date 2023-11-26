@@ -3,9 +3,9 @@ models:
     hasMany: [Comment]
     fake:
       _count: 10
-      module: { loremWords: [1, 5] }
+      module: { loremWords: [3, 8] }
       reviewType: { loremParagraphs: [10, 100] }
-      reviewName: { oneOfString: [one, two, three] }
+      reviewName: { Person }
       reviewDate: { dateTime: [2010-01-01T00:00:00Z, 2020-12-31T23:59:59Z] }
       reviewPeriod: { date: [2010-01-01, 2020-12-31] }
   Comment:
