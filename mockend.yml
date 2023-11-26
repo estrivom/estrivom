@@ -1,17 +1,3 @@
 models:
   Post:
-    hasMany: [Comment]
-    fake:
-      _count: 10
-      module: { loremWords: [3, 8] }
-      reviewType: { loremParagraphs: [10, 100] }
-      reviewName: firstName
-      reviewDate: { dateTime: [2010-01-01T00:00:00Z, 2020-12-31T23:59:59Z] }
-      reviewPeriod: month
-  Comment:
-    belongsTo: [Post]
-    fake:
-      _count: 25
-      email: email
-      body: { loremParagraphs: [10, 100] }
-      createdAt: { dateTime: [2010-01-01T00:00:00Z, 2020-12-31T23:59:59Z] }
+    data: [{ "module": eTravel, "reviewMonth": "MAR", "reviewYear": "2023", "reviewName": person, "reviewDate": "2023-03-16", "reviewPeriod": "MAR-2023" }]
