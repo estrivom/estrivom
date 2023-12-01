@@ -7,4 +7,4 @@ models:
     { "module": eTravel, "reviewMonth": "MAY", "reviewYear": "2023", "reviewName": "Janille Estrivo", "reviewDate": "2023-05-19", "reviewPeriod": "MAY-2023" },
     { "module": eTravel, "reviewMonth": "JUN", "reviewYear": "2023", "reviewName": "Marlon Estrivo", "reviewDate": "2023-06-26", "reviewPeriod": "JUN-2023" },
     { "module": eTravel, "reviewMonth": "JUL", "reviewYear": "2023", "reviewName": "Marvin Estrivo", "reviewDate": "2023-07-18", "reviewPeriod": "JUL-2023" },
-    { "module": eTravel, "reviewMonth": "NOV", "reviewYear": "2023", "reviewName": "Seth Estrivo", "reviewDate": "2023-11-28", "reviewPeriod": "NOV-2023" },]
+    { "module": eTravel, "reviewMonth": "NOV", "reviewYear": "2023", "reviewName": "Seth Estrivo", "reviewDate": "2023-11-28", "reviewPeriod": "NOV-2023" }]
